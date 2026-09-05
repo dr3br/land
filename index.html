@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV - Engenharia e Construção</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo">
+                <span class="logo-text">EV</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                <li><a href="#andamento" class="nav-link">Andamento</a></li>
+                <li><a href="#obras" class="nav-link">Obras</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="hero-title fade-in-up">
+                <span class="hero-subtitle">Engenharia com excelência</span>
+                Construindo o futuro com<br>solidez e inovação
+            </h1>
+            <p class="hero-description fade-in-up delay-1">
+                Mais de 20 anos transformando projetos em realidade, 
+                com compromisso, qualidade e tecnologia de ponta.
+            </p>
+            <div class="hero-buttons fade-in-up delay-2">
+                <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+                <a href="#obras" class="btn btn-secondary">Nossas Obras</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Quem Somos</span>
+                <h2 class="section-title">Excelência em cada projeto</h2>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-image fade-in-left">
+                    <div class="image-wrapper">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Crect fill='%23182d3a' width='600' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ced7e0' font-family='Arial' font-size='24'%3EImagem do Projeto%3C/text%3E%3C/svg%3E" alt="Projeto EV" class="main-image">
+                        <div class="experience-badge">
+                            <span class="badge-number">20+</span>
+                            <span class="badge-text">Anos de Experiência</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-text fade-in-right">
+                    <h3>Tradição e Inovação</h3>
+                    <p>A EV é referência no mercado de engenharia e construção civil, desenvolvendo projetos residenciais, comerciais e industriais com os mais altos padrões de qualidade.</p>
+                    <p>Nossa equipe multidisciplinar combina experiência técnica com soluções inovadoras, garantindo eficiência, sustentabilidade e satisfação total dos nossos clientes.</p>
+                    <ul class="sobre-list">
+                        <li>
+                            <div class="list-icon">✓</div>
+                            <div class="list-content">
+                                <strong>Projetos Personalizados</strong>
+                                <span>Soluções sob medida para cada necessidade</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon">✓</div>
+                            <div class="list-content">
+                                <strong>Tecnologia Avançada</strong>
+                                <span>Equipamentos e métodos de última geração</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon">✓</div>
+                            <div class="list-content">
+                                <strong>Equipe Qualificada</strong>
+                                <span>Profissionais especializados e certificados</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="diferenciais section" id="diferenciais">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Por Que Nos Escolher</span>
+                <h2 class="section-title">Nossos Diferenciais</h2>
+            </div>
+            <div class="diferenciais-grid">
+                <div class="diferencial-card fade-in-up" data-delay="0">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32 4L4 18v28l28 14 28-14V18L32 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M32 32v28M4 18l28 14 28-14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Qualidade Certificada</h3>
+                    <p>Processos rigorosos de controle de qualidade em todas as etapas da obra, garantindo excelência e durabilidade.</p>
+                </div>
+                <div class="diferencial-card fade-in-up" data-delay="1">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M32 18v14l10 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Pontualidade na Entrega</h3>
+                    <p>Compromisso absoluto com prazos estabelecidos, utilizando planejamento eficiente e gestão avançada de projetos.</p>
+                </div>
+                <div class="diferencial-card fade-in-up" data-delay="2">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32 8c-13.3 0-24 10.7-24 24s24 24 24 24 24-10.7 24-24S45.3 8 32 8z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M32 20v12l8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Tecnologia e Inovação</h3>
+                    <p>Utilização de BIM, drones e softwares avançados para otimizar processos e reduzir custos.</p>
+                </div>
+                <div class="diferencial-card fade-in-up" data-delay="3">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32 4L8 16v32l24 12 24-12V16L32 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 16l24 12 24-12M8 32l24 12 24-12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Práticas construtivas ecoeficientes, uso de materiais sustentáveis e certificações ambientais.</p>
+                </div>
+                <div class="diferencial-card fade-in-up" data-delay="4">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 56c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Equipe Especializada</h3>
+                    <p>Profissionais altamente qualificados, com treinamento contínuo e expertise em diversas áreas.</p>
+                </div>
+                <div class="diferencial-card fade-in-up" data-delay="5">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="12" y="16" width="40" height="32" rx="4" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 32h8M20 40h16M36 24h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Transparência Total</h3>
+                    <p>Acompanhamento detalhado da obra, relatórios periódicos e comunicação clara em todas as etapas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adiamento de Obra Section -->
+    <section class="adiamento section" id="adiamento">
+        <div class="adiamento-bg">
+            <div class="adiamento-overlay"></div>
+        </div>
+        <div class="container adiamento-container">
+            <div class="adiamento-content">
+                <div class="adiamento-text fade-in-left">
+                    <span class="section-subtitle light">Planejamento Inteligente</span>
+                    <h2 class="section-title light">Adiamento de Obra</h2>
+                    <p class="adiamento-description">
+                        Entendemos que imprevistos acontecem. Por isso, oferecemos flexibilidade 
+                        no cronograma da sua obra sem comprometer a qualidade ou gerar custos adicionais inesperados.
+                    </p>
+                    <div class="adiamento-features">
+                        <div class="feature-item fade-in-up" data-delay="0">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Cronograma Flexível</h4>
+                                <p>Ajustes de prazo conforme sua necessidade</p>
+                            </div>
+                        </div>
+                        <div class="feature-item fade-in-up" data-delay="1">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Sem Custos Ocultos</h4>
+                                <p>Transparência total nos reajustes</p>
+                            </div>
+                        </div>
+                        <div class="feature-item fade-in-up" data-delay="2">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Replanejamento Eficiente</h4>
+                                <p>Otimização de recursos e etapas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="adiamento-visual fade-in-right">
+                    <div class="timeline-preview">
+                        <div class="timeline-dot active"></div>
+                        <div class="timeline-line"></div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="floating-cards">
+                        <div class="float-card card-1">
+                            <span class="card-status status-1"></span>
+                            <span class="card-label">Planejado</span>
+                        </div>
+                        <div class="float-card card-2">
+                            <span class="card-status status-2"></span>
+                            <span class="card-label">Em Andamento</span>
+                        </div>
+                        <div class="float-card card-3">
+                            <span class="card-status status-3"></span>
+                            <span class="card-label">Concluído</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Andamento Section -->
+    <section class="andamento section" id="andamento">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Acompanhe em Tempo Real</span>
+                <h2 class="section-title">Andamento das Obras</h2>
+                <p class="section-description">
+                    Transparência total: acompanhe o progresso da sua obra em tempo real 
+                    através do nosso sistema exclusivo de monitoramento.
+                </p>
+            </div>
+            
+            <div class="andamento-timeline">
+                <!-- Phase 1 -->
+                <div class="timeline-phase fade-in-up" data-delay="0">
+                    <div class="phase-marker completed">
+                        <div class="marker-circle">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <span class="phase-number">01</span>
+                            <h3 class="phase-title">Projeto e Planejamento</h3>
+                            <span class="phase-status completed">Concluído</span>
+                        </div>
+                        <div class="phase-body">
+                            <p>Desenvolvimento do projeto arquitetônico, estrutural e complementar. Definição de especificações e cronograma.</p>
+                            <div class="phase-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-percent">100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="timeline-phase fade-in-up" data-delay="1">
+                    <div class="phase-marker in-progress">
+                        <div class="marker-circle">
+                            <div class="spinner"></div>
+                        </div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <span class="phase-number">02</span>
+                            <h3 class="phase-title">Fundação e Estrutura</h3>
+                            <span class="phase-status in-progress">Em Andamento</span>
+                        </div>
+                        <div class="phase-body">
+                            <p>Execução das fundações, estrutura de concreto armado e alvenaria estrutural.</p>
+                            <div class="phase-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 65%"></div>
+                                </div>
+                                <span class="progress-percent">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="timeline-phase fade-in-up" data-delay="2">
+                    <div class="phase-marker pending">
+                        <div class="marker-circle"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <span class="phase-number">03</span>
+                            <h3 class="phase-title">Instalações e Acabamentos</h3>
+                            <span class="phase-status pending">Aguardando</span>
+                        </div>
+                        <div class="phase-body">
+                            <p>Instalações hidráulicas, elétricas, climatização e aplicação de acabamentos internos e externos.</p>
+                            <div class="phase-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0%"></div>
+                                </div>
+                                <span class="progress-percent">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="timeline-phase fade-in-up" data-delay="3">
+                    <div class="phase-marker pending">
+                        <div class="marker-circle"></div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <span class="phase-number">04</span>
+                            <h3 class="phase-title">Entrega</h3>
+                            <span class="phase-status pending">Aguardando</span>
+                        </div>
+                        <div class="phase-body">
+                            <p>Vistoria final, testes de sistemas e entrega das chaves com documentação completa.</p>
+                            <div class="phase-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0%"></div>
+                                </div>
+                                <span class="progress-percent">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="andamento-cta fade-in-up">
+                <a href="#contato" class="btn btn-primary">Acompanhar Minha Obra</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Obras/Projects Section -->
+    <section class="obras section" id="obras">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Nosso Portfólio</span>
+                <h2 class="section-title">Obras Realizadas</h2>
+            </div>
+            
+            <div class="obras-filter fade-in-up">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="residencial">Residencial</button>
+                <button class="filter-btn" data-filter="comercial">Comercial</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+            </div>
+
+            <div class="obras-grid">
+                <div class="obra-card fade-in-up" data-category="residencial" data-delay="0">
+                    <div class="obra-image">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23182d3a' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ced7e0' font-family='Arial' font-size='18'%3EResidencial Alpha%3C/text%3E%3C/svg%3E" alt="Residencial Alpha">
+                        <div class="obra-overlay">
+                            <a href="#" class="obra-link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="obra-info">
+                        <span class="obra-category">Residencial</span>
+                        <h3>Residencial Alpha</h3>
+                        <p>Condomínio de alto padrão com 50 unidades</p>
+                    </div>
+                </div>
+
+                <div class="obra-card fade-in-up" data-category="comercial" data-delay="1">
+                    <div class="obra-image">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23182d3a' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ced7e0' font-family='Arial' font-size='18'%3ECorporate Center%3C/text%3E%3C/svg%3E" alt="Corporate Center">
+                        <div class="obra-overlay">
+                            <a href="#" class="obra-link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="obra-info">
+                        <span class="obra-category">Comercial</span>
+                        <h3>Corporate Center</h3>
+                        <p>Edifício corporativo com 15 andares</p>
+                    </div>
+                </div>
+
+                <div class="obra-card fade-in-up" data-category="industrial" data-delay="2">
+                    <div class="obra-image">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23182d3a' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ced7e0' font-family='Arial' font-size='18'%3EWarehouse Plus%3C/text%3E%3C/svg%3E" alt="Warehouse Plus">
+                        <div class="obra-overlay">
+                            <a href="#" class="obra-link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="obra-info">
+                        <span class="obra-category">Industrial</span>
+                        <h3>Warehouse Plus</h3>
+                        <p>Complexo logístico de 5.000m²</p>
+                    </div>
+                </div>
+
+                <div class="obra-card fade-in-up" data-category="residencial" data-delay="3">
+                    <div class="obra-image">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23182d3a' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ced7e0' font-family='Arial' font-size='18'%3EVilla Gardens%3C/text%3E%3C/svg%3E" alt="Villa Gardens">
+                        <div class="obra-overlay">
+                            <a href="#" class="obra-link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="obra-info">
+                        <span class="obra-category">Residencial</span>
+                        <h3>Villa Gardens</h3>
+                        <p>Luxuosas villas em condomínio fechado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in-up" data-delay="0">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Projetos Entregues</div>
+                </div>
+                <div class="stat-item fade-in-up" data-delay="1">
+                    <div class="stat-number" data-target="20">0</div>
+                    <div class="stat-label">Anos de Experiência</div>
+                </div>
+                <div class="stat-item fade-in-up" data-delay="2">
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">% Satisfação</div>
+                </div>
+                <div class="stat-item fade-in-up" data-delay="3">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Profissionais</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <span class="section-subtitle">Entre em Contato</span>
+                <h2 class="section-title">Vamos Conversar?</h2>
+            </div>
+            
+            <div class="contato-content">
+                <div class="contato-info fade-in-left">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <h4>Endereço</h4>
+                            <p>Av. Paulista, 1000 - São Paulo, SP</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <h4>Telefone</h4>
+                            <p>(11) 3000-0000</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>contato@evengenharia.com.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contato-form fade-in-right" id="contato-form">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" required>
+                        <label for="nome">Nome Completo</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefone" name="telefone">
+                            <label for="telefone">Telefone</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select id="assunto" name="assunto" required>
+                            <option value="" disabled selected>Assunto</option>
+                            <option value="orcamento">Orçamento</option>
+                            <option value="projeto">Projeto</option>
+                            <option value="parceria">Parceria</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        <label for="mensagem">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Enviar Mensagem</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">EV</span>
+                    </div>
+                    <p>Engenharia e Construção com excelência há mais de 20 anos.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#diferenciais">Diferenciais</a></li>
+                        <li><a href="#andamento">Andamento</a></li>
+                        <li><a href="#obras">Obras</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>Av. Paulista, 1000 - São Paulo, SP</p>
+                    <p>(11) 3000-0000</p>
+                    <p>contato@evengenharia.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EV Engenharia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
