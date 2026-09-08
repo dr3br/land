@@ -1,13 +1,1 @@
-# Examples
-preview-01.png
-preview-02.png
-preview-03.png
-preview-04.png
-preview-05.png
-preview-06.png
-preview-07.png
-preview-08.png
-preview-09.png
-preview-10.png
-preview-11.png
-preview_01.jpg
+Nothing should be ignored based on the provided file changes. The added files are all JSON widget configuration files and a README markdown file, which are source/config files that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
